@@ -9,6 +9,10 @@ package com.studiofarmaexercise;
  *
  * @author User
  */
+
+/**
+ * This class purpose is to represent a player of the game, implemented by this program.
+ */
 public class Player {
     private String name;
 

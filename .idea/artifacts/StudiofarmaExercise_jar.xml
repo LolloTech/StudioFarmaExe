@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StudiofarmaExercise:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StudiofarmaExercise_jar</output-path>
+    <root id="archive" name="StudiofarmaExercise.jar">
+      <element id="module-output" name="StudiofarmaExercise" />
+    </root>
+  </artifact>
+</component>
