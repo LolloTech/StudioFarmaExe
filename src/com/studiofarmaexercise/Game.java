@@ -43,6 +43,7 @@ public class Game {
             name = IOStream.getString();
             players[i] = new Player(name);
         }
+        IOStream.printOnConsole("Le pizze da mangiare, saranno: " + pizzasNumber);
     }
 
     /**
@@ -64,6 +65,7 @@ public class Game {
                 return true;
             }
             else {
+                IOStream.printOnConsole("Mossa rifiutata; Non puoi mangiare lo stesso numero di pizze mangiate dal giocatore precedente !");
                 return false;
             }
         } catch(Exception E) {
